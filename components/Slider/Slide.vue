@@ -17,6 +17,10 @@
 
   &:last-child {
     padding-right: var(--sliderMargin);
+
+    @media(min-width: $desktop-width) {
+      padding-right: 0;
+    }
   }
 }
 </style>
